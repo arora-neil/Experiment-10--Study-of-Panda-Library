@@ -33,8 +33,8 @@ DF = pd.DataFrame(data)
 8. DF.dtypes - Returns datatype of each column
 9.  DF["Name"] - Accessing a Column
 10. DF.loc[0,"Name"] - Accessing Data Using loc 
-11. DF.iloc[2,1] - Accessing Data Using iloc -
-12.DF["Grade"] - ["First Class", "Distinction", "Second Class"] -  Adding a New Column
+11. DF.iloc[2,1] - Accessing Data Using iloc
+12. DF["Grade"] - ["First Class", "Distinction", "Second Class"] -  Adding a New Column
 13. DF.drop() - Removes specified column
 14. .mean() - Calculates average value of the column
 15. .min() - Returns minimum value in the column
